@@ -41,11 +41,11 @@
 ## 6. Styling
 
 - [x] 6.1 Define the light theme as CSS custom properties in `frontend/src/index.css` (light background, dark legible text, one accent colour, spacing, radius), and verify the page background renders light and body text is dark on it
-- [ ] 6.2 Style the card grid as `repeat(3, 1fr)` on wide viewports and verify 3 cards sit per row at roughly 1280 px
-- [ ] 6.3 Add a media query stepping the grid to 2 columns and verify 2 cards sit per row at roughly 768 px
-- [ ] 6.4 Add a media query stepping the grid to 1 column and verify 1 card per row, with no clipping or horizontal overflow, at roughly 375 px
-- [ ] 6.5 Style card imagery with `object-fit: cover` at a fixed height, and verify all 8 photographs render without distortion or inconsistent card heights
-- [ ] 6.6 Style the placeholder and the credit line so the credit is legible but visually secondary, and verify the credit remains readable on a low-contrast screen and does not overflow narrow cards
+- [x] 6.2 Style the card grid as `repeat(3, 1fr)` on wide viewports and verify 3 cards sit per row at roughly 1280 px
+- [x] 6.3 Add a media query stepping the grid to 2 columns and verify 2 cards sit per row at roughly 768 px
+- [x] 6.4 Add a media query stepping the grid to 1 column and verify 1 card per row, with no clipping or horizontal overflow, at roughly 375 px
+- [x] 6.5 Style card imagery with `object-fit: cover` at a fixed height, and verify all 8 photographs render without distortion or inconsistent card heights
+- [x] 6.6 Style the placeholder and the credit line so the credit is legible but visually secondary, and verify the credit remains readable on a low-contrast screen and does not overflow narrow cards
 - [x] 6.7 Use a system font stack with no web-font link, and verify `frontend/index.html` requests no external stylesheet or font
 - [x] 6.8 Set `lang="en"`, a descriptive `title`, and a `meta description` in `frontend/index.html`, and verify the rendered document declares English and the title and description name the site
 
@@ -53,8 +53,8 @@
 
 - [x] 7.1 Run `npm run lint` and fix every reported issue, and verify it exits 0
 - [x] 7.2 Run `npm run build` and verify it exits 0 and produces a `frontend/dist/` directory containing `index.html` and bundled assets
-- [ ] 7.3 Serve the production build with `npm run preview` and verify the page renders with all 8 cards, then confirm the only external requests are image requests and no application API is contacted
-- [ ] 7.4 Check the full page in a browser at 1280, 768, and 375 px widths, verifying column counts, no overflow, no layout shift as images load, and correct title/city/three-sentence/credit content on every card
+- [x] 7.3 Serve the production build with `npm run preview` and verify the page renders with all 8 cards, then confirm the only external requests are image requests and no application API is contacted
+- [x] 7.4 Check the full page in a browser at 1280, 768, and 375 px widths, verifying column counts, no overflow, no layout shift as images load, and correct title/city/three-sentence/credit content on every card
 - [x] 7.5 Verify the page remains fully readable with photographs unavailable, by blocking `upload.wikimedia.org` in devtools and confirming all 8 entries still show name, city, and three sentences
 
 ## 8. Commit and Push
