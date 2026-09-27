@@ -59,7 +59,7 @@
 
 ## 8. Commit and Push
 
-- [ ] 8.1 Review with `git status` and `git diff --cached`, stage the site source, OpenSpec artifacts, and root `.gitignore`, and verify no `node_modules/`, no `dist/`, and no credentials are staged
-- [ ] 8.2 Commit with a message matching conventional commits style and verify `git log --oneline` shows exactly one commit
-- [ ] 8.3 Push with `git push -u origin main` and verify `git status` reports the branch is up to date with `origin/main`
-- [ ] 8.4 Confirm the push landed by running `git ls-remote origin`, and verify `refs/heads/main` now resolves to the same SHA as the local `main`
+- [x] 8.1 Review with `git status` and `git diff --cached`, stage the site source, OpenSpec artifacts, and root `.gitignore`, and verify no `node_modules/`, no `dist/`, and no credentials are staged
+- [x] 8.2 Commit with a message matching conventional commits style and verify `git log --oneline` shows exactly one commit
+- [x] 8.3 Push with `git push -u origin main` and verify `git status` reports the branch is up to date with `origin/main`
+- [x] 8.4 Confirm the push landed by running `git ls-remote origin`, and verify `refs/heads/main` now resolves to the same SHA as the local `main`
